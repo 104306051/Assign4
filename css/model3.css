@@ -1,0 +1,142 @@
+#wrapper{
+    max-width: 768px;
+    padding-top: 30px;
+    margin:0 auto;
+}
+
+/*blue box*/
+#nav-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    display:none;
+}
+
+#logo{
+    width:100px;
+}
+
+.icon{
+   width:100px;
+   padding-left:20px;
+   padding-top:10px;
+   
+}
+
+nav{
+    width:668px;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+    color:rgb(96,190,174);
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+/*yellow box*/
+.pic{
+    background-image:url(../img/discuss01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:445px;
+    position:relative;
+    margin-top:10px;
+}
+
+.title-box{
+    position: absolute;
+    text-align: right;
+    right: 0px;
+    bottom: 80px;
+    width:100%;
+}
+
+#titleA{
+    background-color: white;
+    color:black;
+    font-size: 2.2rem;
+    line-height: 30px;
+    padding:15px;
+    width:26%;
+    float:right;
+}
+#titleB{
+    background-color: black;
+    color:white;
+    font-size: 2.2rem;
+    line-height: 30px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:15px;
+    width:77%;
+    float:right;
+}
+
+#nd-nav{
+    color:rgb(96,190,174);
+    background-color: rgb(239,248,247);
+    display: flex;
+    flex-wrap: wrap;
+    font-size:2rem;
+}
+.option  p{
+    display:none;
+}
+
+.option{
+    width: 25%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*line*/
+    border-left-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(217,239,236);
+}
+
+/*red box*/
+#archives{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.arti-with-pic{
+    margin-top: 20px;   
+    margin-bottom: 20px; 
+    padding:0 10px;
+    width:25%;
+}
+
+.img img {
+    position:relative;
+    width:100%;
+}
+
+.title{
+    color:rgb(96,190,174);
+    font-size: 1.8rem;
+}
+
+time{
+    color:#AAA;
+}
+
+#nd-nav{
+    color:rgb(96,190,174);
+    background-color: rgb(239,248,247);
+    display: flex;
+    flex-wrap: wrap;
+    font-size:2rem;
+}
+
+

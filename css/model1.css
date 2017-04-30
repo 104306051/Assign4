@@ -1,0 +1,111 @@
+#wrapper{
+    max-width: 350px;
+    padding-top: 10px;
+    margin:0 auto;
+}
+
+/*blue box*/
+#nav-info{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    display:none;
+}
+
+nav{
+    order:1;
+    margin:0 auto ;
+    text-align: center;
+    width:100%
+}
+
+.icon{
+    order:2;
+    margin:0 auto;
+    width:100%;
+}
+#logo{
+    width:60px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    display: inline-block
+}
+
+li{
+    padding: 5px;
+    display: inline-block;
+    color:rgb(96,190,174);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+/*yellow box*/
+.pic{
+    background-image:url(../img/discuss01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:233px;
+    position:relative;
+    margin-top:10px;
+}
+
+.title-box{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width:100%;
+}
+
+#titleA{
+    background-color: white;
+    color:black;
+    width:100%;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding:10px;
+}
+#titleB{
+    background-color: black;
+    color:white;
+    width:100%;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding:10px;
+    
+}
+
+#nd-nav{
+    display:none;
+}
+
+/*red box*/
+#archives{
+    margin-top: 20px;   
+    margin-bottom: 20px; 
+}
+
+.arti-with-pic{
+    margin-top: 20px;   
+    margin-bottom: 20px; 
+}
+
+.img img {
+    position:relative;
+    width:100%;
+}
+
+.title{
+    color:rgb(96,190,174);
+    font-size: 1.8rem;
+}
+
+time{
+    color:#AAA;
+}
